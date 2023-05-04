@@ -7,6 +7,7 @@ function App() {
   const bar = ()=> {}
   return (
     <>
+    <body>
       <div className='zero'>
         <h1>To do:</h1>
         <div className='one'>
@@ -23,6 +24,7 @@ function App() {
         </div>
 
       </div>
+      </body>
     </>
   );
 }
